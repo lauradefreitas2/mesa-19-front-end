@@ -1,0 +1,392 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.div-header{
+position: absolute;
+width: 1310px;
+height: 70px;
+left: 0px;
+top: 0px;
+
+background: #222222;
+}
+.imgcontrole{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 10px;
+top: 15px;
+}
+.game{
+position: absolute;
+width: 66px;
+height: 29px;
+left: 60px;
+top: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+
+color: #F3F3F3;
+
+}
+.SHOP{
+position: absolute;
+width: 57px;
+height: 29px;
+left: 130px;
+top: 22px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+color: #D01418;
+
+}
+.imgcarrinho{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 1200px;
+top: 25px;
+
+}
+.categorias{
+position: absolute;
+width: 79px;
+height: 20px;
+left: 700px;
+top: 40px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #F3F3F3;
+
+}
+.ofertas{
+position: absolute;
+width: 54px;
+height: 20px;
+left: 800px;
+top: 40px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #F3F3F3;
+
+}
+.vestuário{
+position: absolute;
+width: 74px;
+height: 20px;
+left: 870px;
+top: 40px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #F3F3F3;
+}
+.favoritos{
+position: absolute;
+width: 67px;
+height: 20px;
+left: 950px;
+top: 40px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+
+color: #F3F3F3;
+}
+.sectionimg{
+background-image: url(../img/banner.png);
+height: 500px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.spansection{
+    position: absolute;
+    width: 781px;
+    height: 47px;
+    left: 320px;
+    top: 200px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    /* identical to box height */
+    color: #D01418;
+    
+}
+.h1{
+position: absolute;
+width: 781px;
+height: 47px;
+left: 410px;
+top: 200px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+color: white;
+
+}
+.botao{
+position: absolute;
+width: 220px;
+height: 61px;
+left: 540px;
+top: 300px;
+
+background: #D01418;
+border-radius: 5px;
+}
+.comprar{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2produtos{
+position: absolute;
+width: 304.36px;
+height: 35px;
+left: 520px;
+top: 520px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+.card{
+position: absolute;
+width: 265px;
+height: 322px;
+left: 280px;
+top: 650px;
+
+}
+.card2{
+position: absolute;
+width: 265px;
+height: 322px;
+left: 600px;
+top: 650px;
+}
+.card3 {
+position: absolute;
+width: 265px;
+height: 322px;
+left: 900px;
+top: 650px;
+}
+.h2produto2{
+position: absolute;
+width: 247px;
+height: 35px;
+left: 550px;
+top: 920px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+.cadeiras{
+position: absolute;
+width: 361px;
+height: 135px;
+left: 200px;
+top: 1050px;
+}
+.computadores {
+position: absolute;
+width: 360px;
+height: 135px;
+left: 700px;
+top: 1050px;
+}
+.divfooter{
+position: absolute;
+width: 1300px;
+height: 100px;
+left: 0px;
+top: 1389px;
+
+background: #222222;
+}
+.preço{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+}
+.juros{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+
+color: #000000;
+}
+.envio{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+
+color: #619D00;
+
+}
+.h3cadeiras{
+position: absolute;
+width: 187px;
+height: 29px;
+left: 90px;
+top: 50px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+
+color: white;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.h3pc{
+position: absolute;
+width: 165px;
+height: 29px;
+left: 100px;
+top: 50px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+
+color: #F3F3F3;
+
+}
+.imgcontrole2{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 10px;
+top: 20px;
+}
+.gamefooter{
+position: absolute;
+width: 66px;
+height: 29px;
+left: 60px;
+top: 30px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 29px;
+
+color: #F3F3F3;
+}
+.SHOPfooter{
+position: absolute;
+width: 57px;
+height: 29px;
+left: 130px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+color: #D01418;
+}
+.redes{
+position: absolute;
+width: 155px;
+height: 29px;
+left: 889px;
+top: 10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+
+color: #F3F3F3;
+
+}
+.atwitter{
+position: absolute;
+left: 68%;
+right: 0%;
+top: 40%;
+bottom: 9.39%;
+}
+.afb{
+position: absolute;
+left: 72%;
+right: 0%;
+top: 40%;
+bottom: 0%
+}
+.ainsta{
+position: absolute;
+left: 75%;
+right: 0%;
+top: 42%;
+bottom: 0%;
+
+}
